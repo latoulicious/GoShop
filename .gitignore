@@ -1,1 +1,34 @@
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+.toml
+
+# Ignore go build artifacts
+*.o
+*.a
+
+# Ignore go test artifacts
+*.test
+
+# Ignore the Go language package dependency directory
+/vendor/
+
+# Ignore Go binary
+/app
+
+# Ignore tmp directory
+/tmp/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore env variables
+
 .env
